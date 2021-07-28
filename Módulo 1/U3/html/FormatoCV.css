@@ -29,5 +29,5 @@ h4{
     text-shadow: 1px 1px 0px rgba(247, 154, 24, 1);
 }
 img{
-    filter: sepia(100%);
+    filter:sepia(100%)
 }
