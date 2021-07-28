@@ -1,0 +1,33 @@
+h1{color: black;
+    font-family: Verdana;
+    text-shadow: 1px 1px 0px rgba(247, 154, 24, 1);}
+
+h2{
+    color: black;
+    font-family: Verdana;
+    font-style: italic;
+}
+
+h3{
+    color: black;
+    font-family: Verdana;
+    font-style: italic
+}
+p{
+    color:black;
+    font-family: Verdana;
+    }
+ul{
+    font-family: Verdana;
+    font-size: medium;
+}
+ol{
+    font-family: Verdana;
+    font-size: medium;
+}
+h4{
+    text-shadow: 1px 1px 0px rgba(247, 154, 24, 1);
+}
+img{
+    filter: sepia(100%);
+}
