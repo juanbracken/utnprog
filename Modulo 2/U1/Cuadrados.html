@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Direccion en elemntos en unsa sola linea</title>
+	<link rel="stylesheet" href="Formato Cuad.css">
+</head>
+<body>
+	<h1>Seleccione su color de fondo:</h1>
+	<div class="cuadrado">
+		<div class="item1" onclick="cambiarFondo('red')">Rojo</div>
+		<div class="item2" onclick="cambiarFondo('blue')">Azul</div>
+		<div class="item3" onclick="cambiarFondo('violet')">Violeta</div>
+	
+	</div>
+
+
+	<script>
+        function cambiarFondo(color) {
+            document.querySelector('body').style.background = color;
+        }
+    </script>
+
+</body>
+</html>
+
