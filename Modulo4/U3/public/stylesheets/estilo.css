@@ -1,0 +1,58 @@
+footer{
+    background-color: grey;
+}
+
+
+h1, h2{
+    font-family: 'alfa slab one', cursive;
+}
+.hero{
+    background: url(../images/WhatsApp\ Image\ 2021-08-10\ at\ 21.35.00\ \(1\).jpeg) no-repeat;
+background-size: cover;
+height: 50vh;
+min-height: 600px;
+color: white
+}
+.lista-tareas{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lista-tareas li {
+    margin: 4px 0;
+}
+
+.lista-tareas li a {
+    background-color: #fff;
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #a0a0a0;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+.lista-tareas li a:hover{
+    color: #212529;
+    background-color: #dadada;
+}
+
+.lista-tareas li a img{
+    width: 120px;
+    height: 50px;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+.lista-tareas li a:hover img {
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;    
+}
+.card{
+    background: whitesmoke;
+    
+}
+
