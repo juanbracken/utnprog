@@ -32,7 +32,7 @@
     <div class="col-lg-5 offset-lg-2">
       <p>Desde la tierra</p>
       <h1>Establecimiento La Amelia</h1>
-      <p>Desde 1949, produciendo alimentos y generando valor agregado en Lincoln, Buenos Aires.</p>
+      <p>Desde 1949, produciendo alimentos y generando valor agregado en el Noroeste bonaerense.</p>
     </div>
   </div>
 
@@ -43,7 +43,7 @@
       <ul class="lista-tareas">
         {{#each novedades}}
         <li><a href="javascript:void(0)" data-toggle="modal" data-target="#Modal{{id}}">
-            <img src="images/trigo_5a4d2da8_1200x1200.jpg">{{titulo}}</a>
+            <img src="{{imagen}}" width="120">{{titulo}}</a>
         </li>
         {{/each}}
 
@@ -56,13 +56,14 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">{{titulo}}</h5>
+            <h4 class="modal-title" id="exampleModalLabel">{{titulo}}</h4>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <h3>{{subtitulo}}</h3>
+            <h5>{{subtitulo}}</h5>
+            <img src="{{imagen}}" alt="{{titulo}}" width="450"/>
             <p>{{cuerpo}}</p>
           </div>
           <div class="modal-footer">
